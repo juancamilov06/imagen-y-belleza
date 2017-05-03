@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_catalog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    tools:context="co.com.imagenybelleza.imagenybelleza.main.CatalogActivity">
+
+    <ScrollView
+        android:id="@+id/catalog_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/items_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:id="@+id/brands_header"
+                    android:padding="16dp"
+                    android:layout_height="wrap_content">
+
+                    <co.com.imagenybelleza.imagenybelleza.helpers.RobotoRegularTextView
+                        android:layout_width="match_parent"
+                        android:text="Marca"
+                        android:id="@+id/brand_label"
+                        android:layout_weight="0.5"
+                        android:textSize="20sp"
+                        android:textColor="@color/colorWhite"
+                        android:layout_height="wrap_content" />
+
+                    <co.com.imagenybelleza.imagenybelleza.helpers.RobotoRegularTextView
+                        android:layout_width="match_parent"
+                        android:text="▼"
+                        android:gravity="right"
+                        android:layout_weight="0.5"
+                        android:textSize="20sp"
+                        android:textColor="@color/colorWhite"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <co.com.imagenybelleza.imagenybelleza.helpers.AdjustableGridView android:id="@+id/brands_grid"
+                    android:numColumns="3"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <LinearLayout android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:padding="16dp"
+                    android:id="@+id/categories_header"
+                    android:layout_height="wrap_content">
+
+                    <co.com.imagenybelleza.imagenybelleza.helpers.RobotoRegularTextView
+                        android:layout_width="match_parent"
+                        android:text="Categoria"
+                        android:id="@+id/category_label"
+                        android:layout_weight="0.5"
+                        android:textSize="20sp"
+                        android:textColor="@color/colorWhite"
+                        android:layout_height="wrap_content" />
+
+                    <co.com.imagenybelleza.imagenybelleza.helpers.RobotoRegularTextView
+                        android:layout_width="match_parent"
+                        android:text="▼"
+                        android:gravity="right"
+                        android:layout_weight="0.5"
+                        android:textSize="20sp"
+                        android:textColor="@color/colorWhite"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <co.com.imagenybelleza.imagenybelleza.helpers.AdjustableGridView android:id="@+id/categories_grid"
+                    android:numColumns="3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimaryDark"
+                    android:orientation="vertical"
+                    android:padding="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/name_input"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.2"
+                            android:hint="Busca por nombre"
+                            android:inputType="text"
+                            android:textColor="@color/colorWhite"
+                            android:textColorHint="@color/colorAccent" />
+
+                        <ImageView
+                            android:id="@+id/clear_city_button"
+                            android:layout_width="match_parent"
+                            android:layout_weight="0.9"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/ic_input_clear" />
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/search_button"
+                        style="?android:textAppearanceSmall"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:background="@color/colorAccent"
+                        android:text="Buscar"
+                        android:textColor="@color/colorWhite"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <co.com.imagenybelleza.imagenybelleza.helpers.AdjustableGridView android:id="@+id/items_list"
+                android:visibility="invisible"
+                android:numColumns="3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/load_button"
+                style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:background="@color/colorAccent"
+                android:text="Cargar mas"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

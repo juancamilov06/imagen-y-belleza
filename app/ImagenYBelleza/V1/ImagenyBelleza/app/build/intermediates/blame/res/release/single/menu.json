@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\menu\\menu_productos.xml",
+        "source": "C:\\ImagenyBelleza\\app\\src\\main\\res\\menu\\menu_productos.xml"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\menu\\menu_create_order.xml",
+        "source": "C:\\ImagenyBelleza\\app\\src\\main\\res\\menu\\menu_create_order.xml"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\menu\\menu_main.xml",
+        "source": "C:\\ImagenyBelleza\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\menu\\menu_items_list.xml",
+        "source": "C:\\ImagenyBelleza\\app\\src\\main\\res\\menu\\menu_items_list.xml"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\menu\\menu_storage_detail.xml",
+        "source": "C:\\ImagenyBelleza\\app\\src\\main\\res\\menu\\menu_storage_detail.xml"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\menu\\picker_actions.xml",
+        "source": "C:\\ImagenyBelleza\\app\\build\\intermediates\\exploded-aar\\com.nononsenseapps\\filepicker\\3.1.0\\res\\menu\\picker_actions.xml"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\menu\\menu_login.xml",
+        "source": "C:\\ImagenyBelleza\\app\\src\\main\\res\\menu\\menu_login.xml"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\menu\\menu_location.xml",
+        "source": "C:\\ImagenyBelleza\\app\\src\\main\\res\\menu\\menu_location.xml"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\menu\\menu_client.xml",
+        "source": "C:\\ImagenyBelleza\\app\\src\\main\\res\\menu\\menu_client.xml"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\menu\\menu_orders.xml",
+        "source": "C:\\ImagenyBelleza\\app\\src\\main\\res\\menu\\menu_orders.xml"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\menu\\menu_bill.xml",
+        "source": "C:\\ImagenyBelleza\\app\\src\\main\\res\\menu\\menu_bill.xml"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\menu\\menu_catalog.xml",
+        "source": "C:\\ImagenyBelleza\\app\\src\\main\\res\\menu\\menu_catalog.xml"
+    }
+]

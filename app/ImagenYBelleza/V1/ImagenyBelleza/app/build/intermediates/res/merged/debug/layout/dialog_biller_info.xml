@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/colorBackground"
+    android:layout_height="wrap_content">
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <co.com.imagenybelleza.imagenybelleza.helpers.RobotoRegularTextView
+            android:layout_width="match_parent"
+            android:text="Unidades pedidas"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/colorWhite"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout android:orientation="horizontal"
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout android:layout_weight="0.5"
+                android:layout_width="match_parent"
+                android:orientation="vertical" android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <co.com.imagenybelleza.imagenybelleza.helpers.RobotoRegularTextView
+                    android:layout_width="wrap_content"
+                    android:text="Pedidas"
+                    android:textColor="@color/colorWhite"
+                    android:layout_height="wrap_content" />
+
+                <co.com.imagenybelleza.imagenybelleza.helpers.RobotoLightTextView
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="8dp" android:id="@+id/ordered_units_label"
+                    android:textColor="@color/colorWhite"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout android:layout_weight="0.5"
+                android:layout_width="match_parent"
+                android:orientation="vertical" android:gravity="center"
+                android:layout_height="wrap_content">
+
+                <co.com.imagenybelleza.imagenybelleza.helpers.RobotoRegularTextView
+                    android:layout_width="wrap_content"
+                    android:text="Empacadas"
+                    android:textColor="@color/colorWhite"
+                    android:layout_height="wrap_content" />
+
+                <co.com.imagenybelleza.imagenybelleza.helpers.RobotoLightTextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/storage_units_label"
+                    android:textColor="@color/colorWhite"
+                    android:layout_marginTop="8dp"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <co.com.imagenybelleza.imagenybelleza.helpers.RobotoRegularTextView
+                android:layout_width="wrap_content"
+                android:textSize="19sp"
+                android:textColor="@color/colorWhite"
+                android:text="Precio Equivalente"
+                android:layout_height="wrap_content" />
+
+            <co.com.imagenybelleza.imagenybelleza.helpers.RobotoLightTextView
+                android:layout_width="wrap_content"
+                android:layout_margin="8dp"
+                android:textColor="@color/colorWhite"
+                android:id="@+id/eq_price_label"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/close_button"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="@color/colorAccent"
+            android:text="Cerrar"
+            android:textColor="@color/colorWhite" />
+
+    </LinearLayout>
+
+</RelativeLayout>

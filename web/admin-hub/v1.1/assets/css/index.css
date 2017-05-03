@@ -1,0 +1,52 @@
+body { 
+	background-color: #151515;
+}
+
+.err{
+	color: white;
+}
+
+.resize{
+	width: 150px;
+	margin-top: 10%;
+	height: auto;
+}
+
+#form-container{
+	background-color: #191919;
+	padding: 16px;
+	margin-top: 2%;
+}
+
+.center-block {float: none !important}
+
+.input-field label {
+     color: #454545;
+}
+
+.input-field input[type=text]:focus + label {
+     color: #454545;
+}
+
+.input-field input[type=text]:focus {
+     border-bottom: 1px solid #454545;
+     box-shadow: 0 1px 0 0 #454545;
+}
+
+.input-field input[type=password]:focus + label {
+     color: #454545;
+}
+
+.input-field input[type=password]:focus {
+     border-bottom: 1px solid #454545;
+     box-shadow: 0 1px 0 0 #454545;
+}
+
+.btn{
+	margin-top: 3%;
+	background-color: #757575;
+}
+
+.btn:hover{
+	background-color: #616161;
+}

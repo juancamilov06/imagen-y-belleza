@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Proyectos\\ImagenYBelleza\\V1.01\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_action_promoter.png",
+        "source": "C:\\Proyectos\\ImagenYBelleza\\V1.01\\ImagenyBelleza\\app\\src\\main\\res\\drawable-ldpi\\ic_action_promoter.png"
+    },
+    {
+        "merged": "C:\\Proyectos\\ImagenYBelleza\\V1.01\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_action_check.png",
+        "source": "C:\\Proyectos\\ImagenYBelleza\\V1.01\\ImagenyBelleza\\app\\src\\main\\res\\drawable-ldpi\\ic_action_check.png"
+    },
+    {
+        "merged": "C:\\Proyectos\\ImagenYBelleza\\V1.01\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\hlv_overscroll_glow.png",
+        "source": "C:\\Users\\Carlos Duque\\.android\\build-cache\\599503cfc15081ae448082c3c003150dd4c90954\\output\\res\\drawable-ldpi\\hlv_overscroll_glow.png"
+    },
+    {
+        "merged": "C:\\Proyectos\\ImagenYBelleza\\V1.01\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_action_cancel.png",
+        "source": "C:\\Proyectos\\ImagenYBelleza\\V1.01\\ImagenyBelleza\\app\\src\\main\\res\\drawable-ldpi\\ic_action_cancel.png"
+    },
+    {
+        "merged": "C:\\Proyectos\\ImagenYBelleza\\V1.01\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_action_product_pending.png",
+        "source": "C:\\Proyectos\\ImagenYBelleza\\V1.01\\ImagenyBelleza\\app\\src\\main\\res\\drawable-ldpi\\ic_action_product_pending.png"
+    },
+    {
+        "merged": "C:\\Proyectos\\ImagenYBelleza\\V1.01\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\hlv_overscroll_edge.png",
+        "source": "C:\\Users\\Carlos Duque\\.android\\build-cache\\599503cfc15081ae448082c3c003150dd4c90954\\output\\res\\drawable-ldpi\\hlv_overscroll_edge.png"
+    }
+]

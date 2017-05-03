@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="16dp" android:background="@color/colorBackground"
+    android:layout_height="wrap_content">
+
+    <co.com.imagenybelleza.imagenybelleza.helpers.RobotoLightTextView
+        android:layout_width="wrap_content"
+        android:text="Fecha: "
+        android:id="@+id/date_label"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout android:layout_marginTop="4dp"
+        android:layout_width="match_parent" android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <co.com.imagenybelleza.imagenybelleza.helpers.RobotoRegularTextView
+            android:layout_width="match_parent"
+            android:textColor="@color/colorWhite"
+            android:textSize="18sp"
+            android:layout_weight="0.2" android:id="@+id/header_label"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout android:layout_weight="0.8"
+            android:layout_width="match_parent"
+            android:orientation="vertical" android:id="@+id/read_view"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <co.com.imagenybelleza.imagenybelleza.helpers.CircleView
+                android:layout_width="16dp"
+                android:layout_height="16dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

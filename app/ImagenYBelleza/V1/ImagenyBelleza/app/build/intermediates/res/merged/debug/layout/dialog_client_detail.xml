@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/colorBackground">
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <co.com.imagenybelleza.imagenybelleza.helpers.RobotoRegularTextView
+                android:layout_width="wrap_content"
+                android:text="Codigo: "
+                android:textColor="@color/colorWhite"
+                android:layout_height="wrap_content" />
+
+            <co.com.imagenybelleza.imagenybelleza.helpers.RobotoLightTextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:id="@+id/code_label"
+                android:textColor="@color/colorWhite"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <co.com.imagenybelleza.imagenybelleza.helpers.RobotoRegularTextView
+                android:layout_width="wrap_content"
+                android:text="Contacto: "
+                android:textColor="@color/colorWhite"
+                android:layout_height="wrap_content" />
+
+            <co.com.imagenybelleza.imagenybelleza.helpers.RobotoLightTextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:id="@+id/contact_label"
+                android:textColor="@color/colorWhite"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <co.com.imagenybelleza.imagenybelleza.helpers.RobotoRegularTextView
+                android:layout_width="wrap_content"
+                android:text="Empresa: "
+                android:textColor="@color/colorWhite"
+                android:layout_height="wrap_content" />
+
+            <co.com.imagenybelleza.imagenybelleza.helpers.RobotoLightTextView
+                android:layout_width="wrap_content"
+                android:id="@+id/company_label"
+                android:layout_marginLeft="4dp"
+                android:textColor="@color/colorWhite"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+        <LinearLayout android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <co.com.imagenybelleza.imagenybelleza.helpers.RobotoRegularTextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:text="Tipo de cliente: "
+                android:layout_height="wrap_content" />
+
+            <co.com.imagenybelleza.imagenybelleza.helpers.RobotoLightTextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:id="@+id/client_type_label"
+                android:textColor="@color/colorWhite"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+        <LinearLayout android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <co.com.imagenybelleza.imagenybelleza.helpers.RobotoRegularTextView
+                android:layout_width="wrap_content"
+                android:text="Direccion: "
+                android:textColor="@color/colorWhite"
+                android:layout_height="wrap_content" />
+
+            <co.com.imagenybelleza.imagenybelleza.helpers.RobotoLightTextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:textColor="@color/colorWhite"
+                android:id="@+id/address_label"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <co.com.imagenybelleza.imagenybelleza.helpers.RobotoRegularTextView
+                android:layout_width="wrap_content"
+                android:text="Ciudad: "
+                android:textColor="@color/colorWhite"
+                android:layout_height="wrap_content" />
+
+            <co.com.imagenybelleza.imagenybelleza.helpers.RobotoLightTextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:id="@+id/city_label"
+                android:textColor="@color/colorWhite"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <co.com.imagenybelleza.imagenybelleza.helpers.RobotoRegularTextView
+                android:layout_width="wrap_content"
+                android:text="Barrio: "
+                android:textColor="@color/colorWhite"
+                android:layout_height="wrap_content" />
+
+            <co.com.imagenybelleza.imagenybelleza.helpers.RobotoLightTextView
+                android:layout_width="wrap_content"
+                android:id="@+id/neighborhood_label"
+                android:layout_marginLeft="4dp"
+                android:textColor="@color/colorWhite"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <co.com.imagenybelleza.imagenybelleza.helpers.RobotoRegularTextView
+                android:layout_width="wrap_content"
+                android:text="NIT: "
+                android:textColor="@color/colorWhite"
+                android:layout_height="wrap_content" />
+
+            <co.com.imagenybelleza.imagenybelleza.helpers.RobotoLightTextView
+                android:layout_width="wrap_content"
+                android:id="@+id/nit_label"
+                android:layout_marginLeft="4dp"
+                android:textColor="@color/colorWhite"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <co.com.imagenybelleza.imagenybelleza.helpers.RobotoRegularTextView
+                android:layout_width="wrap_content"
+                android:text="Telefono 1"
+                android:id="@+id/title_one_label"
+                android:textColor="@color/colorWhite"
+                android:layout_height="wrap_content" />
+
+            <co.com.imagenybelleza.imagenybelleza.helpers.RobotoLightTextView
+                android:layout_width="wrap_content"
+                android:id="@+id/phone_one_label"
+                android:layout_marginLeft="4dp"
+                android:textColor="@color/colorWhite"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <co.com.imagenybelleza.imagenybelleza.helpers.RobotoRegularTextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:text="Telefono 2"
+                android:id="@+id/title_two_label"
+                android:layout_height="wrap_content" />
+
+            <co.com.imagenybelleza.imagenybelleza.helpers.RobotoLightTextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:id="@+id/phone_two_label"
+                android:textColor="@color/colorWhite"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <co.com.imagenybelleza.imagenybelleza.helpers.RobotoRegularTextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:id="@+id/title_three_label"
+                android:text="Telefono 3"
+                android:layout_height="wrap_content" />
+
+            <co.com.imagenybelleza.imagenybelleza.helpers.RobotoLightTextView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:id="@+id/phone_three_label"
+                android:textColor="@color/colorWhite"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <co.com.imagenybelleza.imagenybelleza.helpers.RobotoRegularTextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:text="Correo: "
+                android:layout_height="wrap_content" />
+
+            <co.com.imagenybelleza.imagenybelleza.helpers.RobotoLightTextView
+                android:layout_width="wrap_content"
+                android:id="@+id/mail_label"
+                android:layout_marginLeft="4dp"
+                android:textColor="@color/colorWhite"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

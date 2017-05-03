@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorAccent"
+    android:orientation="horizontal"
+    android:paddingBottom="32dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="32dp">
+
+    <co.com.imagenybelleza.imagenybelleza.helpers.RobotoLightTextView
+        android:id="@+id/code_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:textColor="@color/colorWhite" />
+
+    <co.com.imagenybelleza.imagenybelleza.helpers.RobotoLightTextView
+        android:id="@+id/name_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.4"
+        android:gravity="center"
+        android:textColor="@color/colorWhite" />
+
+    <co.com.imagenybelleza.imagenybelleza.helpers.RobotoLightTextView
+        android:id="@+id/price_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.4"
+        android:gravity="center"
+        android:textColor="@color/colorWhite" />
+
+    <co.com.imagenybelleza.imagenybelleza.helpers.RobotoLightTextView
+        android:id="@+id/desc_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"  />
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+    <co.com.imagenybelleza.imagenybelleza.helpers.RobotoRegularTextView
+        android:layout_width="wrap_content"
+        android:text="Cambiar direccion ip"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:textColor="@color/colorWhite"
+        android:layout_height="wrap_content" />
+
+    <co.com.imagenybelleza.imagenybelleza.helpers.RobotoRegularTextView
+        android:layout_width="wrap_content"
+        android:padding="16dp"
+        android:id="@+id/title_label"
+        android:text="La conexion a la red del servidor actual fallo, ¿deseas cambiar la direccion IP?"
+        android:textColor="@color/colorWhite"
+        android:layout_height="wrap_content" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textColorHint="@color/colorWhite">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/ip_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingresa la IP"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textColor="@color/colorWhite" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/accept_button"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:text="Reintentar"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
+
+        <View android:background="@color/colorBackground"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"/>
+
+        <Button
+            android:id="@+id/cancel_button"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:text="Continuar sin conexion"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,158 @@
+[
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\ic_action_cancel.png",
+        "source": "C:\\ImagenyBelleza\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_cancel.png"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\ic_action_product_pending.png",
+        "source": "C:\\ImagenyBelleza\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_product_pending.png"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\ic_trash.png",
+        "source": "C:\\ImagenyBelleza\\app\\src\\main\\res\\drawable-xhdpi\\ic_trash.png"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\admin_menu.png",
+        "source": "C:\\ImagenyBelleza\\app\\src\\main\\res\\drawable-xhdpi\\admin_menu.png"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\hlv_overscroll_edge.png",
+        "source": "C:\\ImagenyBelleza\\app\\build\\intermediates\\exploded-aar\\it.sephiroth.android.library.horizontallistview\\library\\1.2.1\\res\\drawable-xhdpi\\hlv_overscroll_edge.png"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\ic_input_clear.png",
+        "source": "C:\\ImagenyBelleza\\app\\src\\main\\res\\drawable-xhdpi\\ic_input_clear.png"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\company_logo.png",
+        "source": "C:\\ImagenyBelleza\\app\\src\\main\\res\\drawable-xhdpi\\company_logo.png"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\ic_add.png",
+        "source": "C:\\ImagenyBelleza\\app\\src\\main\\res\\drawable-xhdpi\\ic_add.png"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\not_found.png",
+        "source": "C:\\ImagenyBelleza\\app\\src\\main\\res\\drawable-xhdpi\\not_found.png"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\ic_home.png",
+        "source": "C:\\ImagenyBelleza\\app\\src\\main\\res\\drawable-xhdpi\\ic_home.png"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\ic_refresh.png",
+        "source": "C:\\ImagenyBelleza\\app\\src\\main\\res\\drawable-xhdpi\\ic_refresh.png"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\ic_add_order.png",
+        "source": "C:\\ImagenyBelleza\\app\\src\\main\\res\\drawable-xhdpi\\ic_add_order.png"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\developer_logo.png",
+        "source": "C:\\ImagenyBelleza\\app\\src\\main\\res\\drawable-xhdpi\\developer_logo.png"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\ic_user_item.png",
+        "source": "C:\\ImagenyBelleza\\app\\src\\main\\res\\drawable-xhdpi\\ic_user_item.png"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\order_menu.png",
+        "source": "C:\\ImagenyBelleza\\app\\src\\main\\res\\drawable-xhdpi\\order_menu.png"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\placeholder.png",
+        "source": "C:\\ImagenyBelleza\\app\\src\\main\\res\\drawable-xhdpi\\placeholder.png"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\ic_search.png",
+        "source": "C:\\ImagenyBelleza\\app\\src\\main\\res\\drawable-xhdpi\\ic_search.png"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\ic_sign_out.png",
+        "source": "C:\\ImagenyBelleza\\app\\src\\main\\res\\drawable-xhdpi\\ic_sign_out.png"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\user_profile.png",
+        "source": "C:\\ImagenyBelleza\\app\\src\\main\\res\\drawable-xhdpi\\user_profile.png"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\ic_check.png",
+        "source": "C:\\ImagenyBelleza\\app\\src\\main\\res\\drawable-xhdpi\\ic_check.png"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\not_connected.png",
+        "source": "C:\\ImagenyBelleza\\app\\src\\main\\res\\drawable-xhdpi\\not_connected.png"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\ic_back.png",
+        "source": "C:\\ImagenyBelleza\\app\\src\\main\\res\\drawable-xhdpi\\ic_back.png"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\logo_black.png",
+        "source": "C:\\ImagenyBelleza\\app\\src\\main\\res\\drawable-xhdpi\\logo_black.png"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\ic_lock.png",
+        "source": "C:\\ImagenyBelleza\\app\\src\\main\\res\\drawable-xhdpi\\ic_lock.png"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\ic_clear.png",
+        "source": "C:\\ImagenyBelleza\\app\\src\\main\\res\\drawable-xhdpi\\ic_clear.png"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\ic_info_big.png",
+        "source": "C:\\ImagenyBelleza\\app\\src\\main\\res\\drawable-xhdpi\\ic_info_big.png"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\ic_action_check.png",
+        "source": "C:\\ImagenyBelleza\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_check.png"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\ic_info.png",
+        "source": "C:\\ImagenyBelleza\\app\\src\\main\\res\\drawable-xhdpi\\ic_info.png"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\bill_menu.png",
+        "source": "C:\\ImagenyBelleza\\app\\src\\main\\res\\drawable-xhdpi\\bill_menu.png"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\ic_menu_search.png",
+        "source": "C:\\ImagenyBelleza\\app\\src\\main\\res\\drawable-xhdpi\\ic_menu_search.png"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\ic_save.png",
+        "source": "C:\\ImagenyBelleza\\app\\src\\main\\res\\drawable-xhdpi\\ic_save.png"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\ic_cancel.png",
+        "source": "C:\\ImagenyBelleza\\app\\src\\main\\res\\drawable-xhdpi\\ic_cancel.png"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\storage_menu.png",
+        "source": "C:\\ImagenyBelleza\\app\\src\\main\\res\\drawable-xhdpi\\storage_menu.png"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\ic_action_promoter.png",
+        "source": "C:\\ImagenyBelleza\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_promoter.png"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\ic_catalog.png",
+        "source": "C:\\ImagenyBelleza\\app\\src\\main\\res\\drawable-xhdpi\\ic_catalog.png"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\ic_fb_info.png",
+        "source": "C:\\ImagenyBelleza\\app\\src\\main\\res\\drawable-xhdpi\\ic_fb_info.png"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\app_logo.png",
+        "source": "C:\\ImagenyBelleza\\app\\src\\main\\res\\drawable-xhdpi\\app_logo.png"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\hlv_overscroll_glow.png",
+        "source": "C:\\ImagenyBelleza\\app\\build\\intermediates\\exploded-aar\\it.sephiroth.android.library.horizontallistview\\library\\1.2.1\\res\\drawable-xhdpi\\hlv_overscroll_glow.png"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi\\ic_send.png",
+        "source": "C:\\ImagenyBelleza\\app\\src\\main\\res\\drawable-xhdpi\\ic_send.png"
+    }
+]

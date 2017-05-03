@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout android:orientation="vertical"
+            android:padding="16dp"
+            android:background="@color/colorBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <co.com.imagenybelleza.imagenybelleza.helpers.RobotoRegularTextView
+                android:layout_width="match_parent"
+                android:text="Defina el tipo de cliente"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textColor="@color/colorWhite"
+                android:layout_height="wrap_content" />
+
+            <co.com.imagenybelleza.imagenybelleza.helpers.RobotoLightTextView
+                android:layout_width="match_parent"
+                android:text="El cliente que has seleccionado no tiene tipo definido aun. Debe definirlo para continuar"
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="4dp"
+                android:gravity="center"
+                android:layout_height="wrap_content" />
+
+            <co.com.imagenybelleza.imagenybelleza.helpers.RobotoRegularTextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Tipo de cliente: "
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp"
+                android:layout_height="wrap_content" />
+
+            <android.support.v7.widget.AppCompatSpinner android:id="@+id/type_spinner"
+                android:layout_marginTop="8dp"
+                app:backgroundTint="@color/colorWhite"
+                android:layout_width="match_parent"
+                android:popupBackground="@color/colorPrimaryDark"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/confirm_button"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:text="Confirmar"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</RelativeLayout>

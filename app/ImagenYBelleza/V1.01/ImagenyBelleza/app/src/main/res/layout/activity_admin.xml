@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_admin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    tools:context="co.com.imagenybelleza.imagenybelleza.main.AdminActivity">
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <co.com.imagenybelleza.imagenybelleza.helpers.RobotoRegularTextView
+            android:layout_width="match_parent"
+            android:text="Version: "
+            android:textSize="18sp"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:textColor="@color/colorWhite"
+            android:layout_height="wrap_content" />
+
+        <co.com.imagenybelleza.imagenybelleza.helpers.RobotoLightTextView
+            android:layout_width="match_parent"
+            android:layout_weight="0.5"
+            android:id="@+id/version_label"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="@color/colorWhite"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/clear_button"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorRed"
+        android:text="RECARGAR DATOS"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/messages_button"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="@color/colorAccent"
+        android:text="MENSAJES"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold" />
+
+    <co.com.imagenybelleza.imagenybelleza.helpers.RobotoLightTextView
+        android:layout_width="match_parent"
+        android:textColor="@color/colorWhite"
+        android:text="Localización"
+        android:padding="8dp"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/location_button"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorAccent"
+        android:text="Ver mapa"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold" />
+
+    <co.com.imagenybelleza.imagenybelleza.helpers.RobotoLightTextView
+        android:layout_width="match_parent"
+        android:textColor="@color/colorWhite"
+        android:text="Registros"
+        android:padding="8dp"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/data_count_button"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorAccent"
+        android:text="Ver conteo"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>

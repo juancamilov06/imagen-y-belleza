@@ -1,0 +1,4 @@
+#Fri Apr 28 16:20:54 COT 2017
+base.0=C\:\\Proyectos\\ImagenYBelleza\\V1.01\\ImagenyBelleza\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=C\:\\Proyectos\\ImagenYBelleza\\V1.01\\ImagenyBelleza\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

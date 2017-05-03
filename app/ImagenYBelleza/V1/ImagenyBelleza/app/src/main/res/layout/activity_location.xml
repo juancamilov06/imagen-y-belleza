@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_location"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_width="match_parent">
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:id="@+id/search_view"
+        android:padding="8dp"
+        android:background="@color/colorPrimaryDark"
+        android:visibility="gone"
+        android:layout_height="wrap_content">
+
+        <LinearLayout android:padding="8dp"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <co.com.imagenybelleza.imagenybelleza.helpers.RobotoRegularTextView
+                android:layout_width="match_parent"
+                android:text="Empleado"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp"
+                android:layout_weight="0.5"
+                android:layout_height="wrap_content"
+                android:id="@+id/robotoRegularTextView" />
+
+            <android.support.v7.widget.AppCompatSpinner android:id="@+id/sellers_spinner"
+                android:layout_weight="0.5"
+                map:backgroundTint="@color/colorWhite"
+                android:layout_width="match_parent"
+                android:popupBackground="@color/colorPrimaryDark"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout android:background="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <EditText android:id="@+id/date_input"
+                android:hint="Filtrar por fecha"
+                android:layout_weight="0.2"
+                android:focusable="false"
+                android:textColorHint="@color/colorWhite"
+                android:textColor="@color/colorWhite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView map:srcCompat="@drawable/ic_input_clear"
+                android:layout_width="match_parent"
+                android:id="@+id/clear_button"
+                android:layout_weight="0.7"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/search_location_button"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:text="Buscar"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="co.com.imagenybelleza.imagenybelleza.main.LocationActivity" />
+
+</LinearLayout>
+

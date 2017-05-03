@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="library-1.2.1">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/599503cfc15081ae448082c3c003150dd4c90954/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/599503cfc15081ae448082c3c003150dd4c90954/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/it.sephiroth.android.library.horizontallistview/library/1.2.1/9c1e530362c9deccb1128d1a2c80ff7d7720ad03/library-1.2.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

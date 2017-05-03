@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="co.com.imagenybelleza.imagenybelleza">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-feature android:name="android.hardware.location.gps" />
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:name=".application.CombellezaApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".main.SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.nononsenseapps.filepicker.FilePickerActivity"
+            android:label="@string/app_name"
+            android:theme="@style/FilePickerTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".main.OrderActivity"
+            android:label="@string/title_activity_pedidos" />
+        <activity
+            android:name=".main.CreateClientActivity"
+            android:label="@string/title_activity_create_client" />
+        <activity
+            android:name=".main.CreateOrderActivity"
+            android:label="@string/title_activity_create_order" />
+        <activity
+            android:name=".main.MainActivity"
+            android:label="@string/title_activity_main" />
+        <activity
+            android:name=".main.AboutActivity"
+            android:label="@string/title_activity_about" />
+        <activity
+            android:name=".main.LoginActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".main.ClientActivity"
+            android:label="@string/title_activity_client" />
+        <activity
+            android:name=".main.ItemsListActivity"
+            android:label="@string/title_activity_items_list" />
+        <activity
+            android:name=".main.CatalogActivity"
+            android:label="@string/title_activity_catalog"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".main.SettingsActivity"
+            android:label="Configuración"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".main.BillActivity"
+            android:label="Facturación" />
+        <activity android:name=".main.BillDetailActivity" />
+
+        <receiver
+            android:name=".helpers.ConnectivityReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".helpers.GPSReceiver">
+            <intent-filter>
+                <action android:name="android.location.PROVIDERS_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".services.LocationService" />
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".main.LocationActivity"
+            android:label="@string/title_activity_location"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".main.StorageActivity"
+            android:label="Bodega" />
+        <activity
+            android:name=".main.StorageDetailActivity"
+            android:label="@string/title_activity_storage_detail" />
+        <activity android:name=".main.AdminActivity" />
+        <activity
+            android:name=".main.MessagesActivity"
+            android:label="Mensajes" />
+    </application>
+
+</manifest>

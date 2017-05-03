@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi\\hlv_overscroll_edge.png",
+        "source": "C:\\ImagenyBelleza\\app\\build\\intermediates\\exploded-aar\\it.sephiroth.android.library.horizontallistview\\library\\1.2.1\\res\\drawable-ldpi\\hlv_overscroll_edge.png"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi\\ic_action_product_pending.png",
+        "source": "C:\\ImagenyBelleza\\app\\src\\main\\res\\drawable-ldpi\\ic_action_product_pending.png"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi\\ic_action_promoter.png",
+        "source": "C:\\ImagenyBelleza\\app\\src\\main\\res\\drawable-ldpi\\ic_action_promoter.png"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi\\hlv_overscroll_glow.png",
+        "source": "C:\\ImagenyBelleza\\app\\build\\intermediates\\exploded-aar\\it.sephiroth.android.library.horizontallistview\\library\\1.2.1\\res\\drawable-ldpi\\hlv_overscroll_glow.png"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi\\ic_action_check.png",
+        "source": "C:\\ImagenyBelleza\\app\\src\\main\\res\\drawable-ldpi\\ic_action_check.png"
+    },
+    {
+        "merged": "C:\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\release\\drawable-ldpi\\ic_action_cancel.png",
+        "source": "C:\\ImagenyBelleza\\app\\src\\main\\res\\drawable-ldpi\\ic_action_cancel.png"
+    }
+]

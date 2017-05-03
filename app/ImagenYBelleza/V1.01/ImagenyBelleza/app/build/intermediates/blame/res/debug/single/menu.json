@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "C:\\Proyectos\\ImagenYBelleza\\V1.01\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_catalog.xml",
+        "source": "C:\\Proyectos\\ImagenYBelleza\\V1.01\\ImagenyBelleza\\app\\src\\main\\res\\menu\\menu_catalog.xml"
+    },
+    {
+        "merged": "C:\\Proyectos\\ImagenYBelleza\\V1.01\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_items_list.xml",
+        "source": "C:\\Proyectos\\ImagenYBelleza\\V1.01\\ImagenyBelleza\\app\\src\\main\\res\\menu\\menu_items_list.xml"
+    },
+    {
+        "merged": "C:\\Proyectos\\ImagenYBelleza\\V1.01\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_bill.xml",
+        "source": "C:\\Proyectos\\ImagenYBelleza\\V1.01\\ImagenyBelleza\\app\\src\\main\\res\\menu\\menu_bill.xml"
+    },
+    {
+        "merged": "C:\\Proyectos\\ImagenYBelleza\\V1.01\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_create_order.xml",
+        "source": "C:\\Proyectos\\ImagenYBelleza\\V1.01\\ImagenyBelleza\\app\\src\\main\\res\\menu\\menu_create_order.xml"
+    },
+    {
+        "merged": "C:\\Proyectos\\ImagenYBelleza\\V1.01\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "C:\\Proyectos\\ImagenYBelleza\\V1.01\\ImagenyBelleza\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "C:\\Proyectos\\ImagenYBelleza\\V1.01\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_login.xml",
+        "source": "C:\\Proyectos\\ImagenYBelleza\\V1.01\\ImagenyBelleza\\app\\src\\main\\res\\menu\\menu_login.xml"
+    },
+    {
+        "merged": "C:\\Proyectos\\ImagenYBelleza\\V1.01\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_client.xml",
+        "source": "C:\\Proyectos\\ImagenYBelleza\\V1.01\\ImagenyBelleza\\app\\src\\main\\res\\menu\\menu_client.xml"
+    },
+    {
+        "merged": "C:\\Proyectos\\ImagenYBelleza\\V1.01\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_storage_detail.xml",
+        "source": "C:\\Proyectos\\ImagenYBelleza\\V1.01\\ImagenyBelleza\\app\\src\\main\\res\\menu\\menu_storage_detail.xml"
+    },
+    {
+        "merged": "C:\\Proyectos\\ImagenYBelleza\\V1.01\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_location.xml",
+        "source": "C:\\Proyectos\\ImagenYBelleza\\V1.01\\ImagenyBelleza\\app\\src\\main\\res\\menu\\menu_location.xml"
+    },
+    {
+        "merged": "C:\\Proyectos\\ImagenYBelleza\\V1.01\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_orders.xml",
+        "source": "C:\\Proyectos\\ImagenYBelleza\\V1.01\\ImagenyBelleza\\app\\src\\main\\res\\menu\\menu_orders.xml"
+    },
+    {
+        "merged": "C:\\Proyectos\\ImagenYBelleza\\V1.01\\ImagenyBelleza\\app\\build\\intermediates\\res\\merged\\debug\\menu\\picker_actions.xml",
+        "source": "C:\\Users\\Carlos Duque\\.android\\build-cache\\a43bd4140cf0451668f649bff25277bdbb394cd6\\output\\res\\menu\\picker_actions.xml"
+    }
+]

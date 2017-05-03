@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorBackground"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <co.com.imagenybelleza.imagenybelleza.helpers.RobotoRegularTextView
+            android:id="@+id/date_price_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fecha"
+            android:textColor="@color/colorWhite" />
+
+        <co.com.imagenybelleza.imagenybelleza.helpers.RobotoLightTextView
+            android:id="@+id/code_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Codigo:"
+            android:textColor="@color/colorWhite" />
+
+        <co.com.imagenybelleza.imagenybelleza.helpers.RobotoLightTextView
+            android:id="@+id/client_company_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cliente"
+            android:textColor="@color/colorWhite" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.7"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <co.com.imagenybelleza.imagenybelleza.helpers.CircleView
+            android:id="@+id/state_view"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+
+        <co.com.imagenybelleza.imagenybelleza.helpers.RobotoRegularTextView
+            android:id="@+id/state_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Estado"
+            android:textColor="@color/colorAccent" />
+
+    </LinearLayout>
+
+</LinearLayout>

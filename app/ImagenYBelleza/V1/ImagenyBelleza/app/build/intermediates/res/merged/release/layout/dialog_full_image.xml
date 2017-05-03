@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <FrameLayout android:background="@color/colorBlack"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:id="@+id/full_item_image"
+            app:srcCompat="@drawable/logo_black"
+            android:layout_gravity="center"/>
+
+        <LinearLayout android:orientation="vertical"
+            android:layout_width="match_parent" android:baselineAligned="false"
+            android:layout_height="match_parent">
+
+            <LinearLayout android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_gravity="top"
+                android:padding="4dp"
+                android:background="@color/colorSemiTransparent"
+                android:layout_height="wrap_content">
+
+                <co.com.imagenybelleza.imagenybelleza.helpers.RobotoLightTextView
+                    android:layout_width="wrap_content"
+                    android:text="Codigo"
+                    android:textSize="20sp"
+                    android:id="@+id/code_label"
+                    android:textColor="@color/colorWhite"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorSemiTransparent"
+            android:gravity="start"
+            android:padding="4dp"
+            android:layout_gravity="bottom">
+
+            <co.com.imagenybelleza.imagenybelleza.helpers.RobotoLightTextView
+                android:id="@+id/name_label"
+                android:text="Nombre"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite" />
+
+            <co.com.imagenybelleza.imagenybelleza.helpers.RobotoLightTextView
+                android:id="@+id/price_label"
+                android:text="Precio"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>
